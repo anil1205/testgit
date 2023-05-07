@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: signalsciences/example-helloworld:latest
+        image: hello-world
         imagePullPolicy: IfNotPresent
         args:
         # Address for the app to listen on
